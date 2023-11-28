@@ -47,11 +47,24 @@ h3{
 .bookGen{
     font-family: 'Poppins', sans-serif;
     background-color: yellow;
-    font-size: 2vw;
+    font-size: 1.6vw;
     padding-top: 5px;
     padding-bottom: 5px;
     padding-left: 13px;
     padding-right: 13px;
     margin: 25px;
     border-radius: 30px;
+}
+
+@media (max-width: 800px) {
+    .book-container {
+        padding: 0.5em; /* Adjust padding for smaller screens */
+        font-size: 14px; /* Adjust font size for smaller screens */
+        margin-bottom: 1vw; /* Adjust margin for smaller screens */
+        margin-top: 1vw;
+    }
+    .book1, .book2{
+        margin-top: 1.3vh;
+        margin-bottom: 1.3vh;
+    }
 }
