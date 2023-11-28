@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&family=Shadows+Into+Light&family=Tektur:wght@600&family=Wix+Madefor+Display&display=swap');
+
+body{
+    background-color: black;
+    margin: 0px;
+}
+
+nav{
+    background-color: yellow;
+    margin-top: 0px;
+}
+
+.main{
+    text-align: center;
+}
+
+h1{
+    font-family: 'Poppins', sans-serif;
+}
+h3{
+    font-family: 'Poppins', sans-serif;
+}
+
+.header{
+    text-align: center;
+}
+
+.pagetitle{
+    color: aliceblue;
+}
+
+.book-container{
+    display: block;
+    margin: auto;
+    background-color:aliceblue;
+    border-color: none;
+    width: 40rem;
+    padding: 1em 2em;
+    border: 0;
+    border-radius: 30px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.bookGen{
+    font-family: 'Poppins', sans-serif;
+    background-color: yellow;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 13px;
+    padding-right: 13px;
+    margin: 25px;
+    border-radius: 30px;
+}
