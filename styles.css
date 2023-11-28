@@ -29,23 +29,25 @@ h3{
     color: aliceblue;
 }
 
-.book-container{
+.book-container {
     display: block;
     margin: auto;
-    background-color:aliceblue;
-    border-color: none;
-    width: 40rem;
+    background-color: aliceblue;
+    border: none;
+    width: 60%; /* Use a percentage for responsive width */
+    /*max-width: 400px; /* Optional: set a max-width to prevent it from becoming too wide on large screens */
     padding: 1em 2em;
-    border: 0;
     border-radius: 30px;
-    margin-bottom: 30px;
-    margin-top: 30px;
+    margin-bottom: 3vw; /* Use a percentage for responsive margin */
+    margin-top: 3vw; /* Use a percentage for responsive margin */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
 }
+
 
 .bookGen{
     font-family: 'Poppins', sans-serif;
     background-color: yellow;
-    font-size: 20px;
+    font-size: 1.6vw;
     padding-top: 5px;
     padding-bottom: 5px;
     padding-left: 13px;
